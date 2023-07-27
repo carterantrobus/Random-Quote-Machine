@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet/less" type="text/css" href="style.scss">
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <title>Random Quote Machine</title>
+  </head>
+  <body>
+    <div class="quote-box">
+      <div class="quote-text">
+        <i class="fa fa-quote-left"></i> <!-- <img src="./images/quote-left-solid.svg"> --> <span id="text"></span>
+      </div>
+      <div class="quote-author">
+        - <span id="author"></span>
+      </div>
+      <div class="buttons">
+        <a class="button" 
+           id="tweet-quote" 
+           title="Tweet this quote!" 
+           target="_blank">
+           <i class="fa fa-twitter"></i>
+          <!-- <img src="./images/twitter.svg"> -->
+        </a>
+         <a class="button" 
+            id="tumblr-quote" 
+            title="Post this quote on tumblr!" 
+            target="_blank">
+            <i class="fa fa-tumblr"></i>
+            <!-- <img src="./images/tumblr.svg"> -->
+        </a>
+        <button class="button" id="new-quote">New Quote</button>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+    </body>
+  </html>
